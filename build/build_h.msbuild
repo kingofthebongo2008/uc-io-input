@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"> 
+
+<ItemGroup>	
+<ClInclude Include = "..\src\pch\pch.h"/>	
+<ClInclude Include = "..\src\pch\targetver.h"/>
+</ItemGroup>
+<ItemGroup>	
+<ClInclude Include = "..\include\uc\io\console.h"/>	
+<ClInclude Include = "..\include\uc\io\error.h"/>	
+<ClInclude Include = "..\include\uc\io\keyboard.h"/>	
+<ClInclude Include = "..\include\uc\io\keyboard_state.h"/>	
+<ClInclude Include = "..\include\uc\io\mouse.h"/>	
+<ClInclude Include = "..\include\uc\io\mouse_state.h"/>	
+<ClInclude Include = "..\include\uc\io\pad.h"/>	
+<ClInclude Include = "..\include\uc\io\pad_state.h"/>	
+<ClInclude Include = "..\include\uc\io\platforms\pc\native_keyboard.h"/>	
+<ClInclude Include = "..\include\uc\io\platforms\pc\native_mouse.h"/>	
+<ClInclude Include = "..\include\uc\io\platforms\pc\native_pad.h"/>	
+<ClInclude Include = "..\include\uc\io\platforms\pc\native_registration_token.h"/>
+</ItemGroup></Project> 
