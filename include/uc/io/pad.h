@@ -11,8 +11,6 @@
     #include <uc/io/platforms/pc/native_pad.h>
 #endif
 
-
-
 namespace uc
 {
     namespace io
