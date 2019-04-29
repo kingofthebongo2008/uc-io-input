@@ -38,7 +38,7 @@
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)..\lib\win-$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
-    <TargetName>uc-io-inputs</TargetName>
+    <TargetName>uc-io-input</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>

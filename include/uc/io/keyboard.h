@@ -3,11 +3,11 @@
 #include <cstdint>
 #include <windows.h>
 
-#include <uc_dev/util/bits.h>
-#include <uc_dev/util/noncopyable.h>
+#include <uc/util/bits.h>
+#include <uc/util/noncopyable.h>
 
 #if defined(_PC)
-#include <uc_dev/io/platforms/pc/native_keyboard.h>
+    #include <uc/io/platforms/pc/native_keyboard.h>
 #endif
 
 namespace uc
